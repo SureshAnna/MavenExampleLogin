@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="example suite 1" verbose="1" >
-  <test name="Regression suite 1" >
-    <classes>
-      <class name="com.Hello.Login.LoginDetails"/>
-<!--       <class name="com.first.example.demoTwo"/> -->
-<!--       <class name="com.second.example.demoThree"/> -->
-
-    </classes>
- </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.Hello.Login.LoginDetails" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
