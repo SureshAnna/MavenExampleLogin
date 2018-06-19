@@ -12,9 +12,9 @@ public class LoginDetails {
 	public void initBrowser() {
 
 		WebDriver driver;
-		System.setProperty("webdriver.gecko.driver",
-				"D:\\SeleniumPractice\\Login\\src\\main\\java\\drivers\\geckodriver.exe");
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Suresh\\git\\MavenExampleLogin\\src\\main\\java\\drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		System.out.println("Hello");
